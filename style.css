@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #110720;
+}
+.nav-links{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    padding-right: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 130%;
+}
+.nav-links li a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+header{
+    background-color: #110720;
+    border-bottom: 1px solid rgb(48, 47, 47);
+    
+}
+.logo{
+    color: aliceblue;
+    padding-left: 210px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 800px;
+    align-items: center;
+    height: 90px;
+}
+#logo-img{
+    width: 90px;     
+    height: auto;
+}
+.hero-section-div-1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    padding-left: 300px;
+    padding-top: 37px;
+}
+.highlight{
+    color: #812AFE;
+}
+.arrow{
+    width: 90px;     
+    height: auto;
+}
+.text-1{
+    font-size: 23px;
+}
+.white-spot{
+    width: 250px;     
+    height: auto;
+}
+.guy{
+    width: 200px;     
+    height: auto;
+     position: absolute;
+    left: 153px;
+    top: 218px;
+}
+.hero-section-div-2-left-2{
+    position: relative;
+}
+
+.hero-section-div-right-1{
+    color: white;
+}
+.hero-section-div-2{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 135px;
+}
+.hero-section-div-right-1-text-1{
+    font-size: 26px;
+}
+.hero-section-div-right-1-text-2{
+    font-size: 75px;
+    font-weight: 600;
+}
+.hero-section-div-3{
+    color: white;
+    padding-left: 170px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero-section-div-3-text-1{
+    font-size: 46px;
+    font-weight: 900;
+    border-right: 6px solid white;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 3s,steps(25),
+        cursor .4s step-end infinite alternate;
+    
+}
+@keyframes cursor{
+    50% {border-color: transparent;}
+}
+@keyframes typing{
+    from {width: 0;}
+}
+.hero-section-div-3-text-2{
+    font-size: 22px;
+    font-weight: 500;
+}
+#hero-section-div-3-text-2-id{
+    padding-top: 39px;
+}
+.animated-text{
+    display: inline-block;
+}
+.section-2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 124px;
+
+} 
+.section-2-text-1{
+    font-size: 41px;
+}
+.section-2-text-2{
+    font-size: 22px;
+}
+.illustration{
+    width: 519px;
+    height: auto;
+    padding-top: 50px;
+}
