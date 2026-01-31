@@ -154,6 +154,8 @@ nav{
     position: relative;
     z-index: 1;
     left: 160px;
+    border: 15px solid #020618;
+    border-radius: 37px;
 }
 .section-3-left-div-text-1{
     color: #812AFE;
@@ -181,4 +183,52 @@ nav{
     border-radius: 10px;
     background: rgba(200, 197, 203, 1);
     backdrop-filter: blur(10px);
+}
+.section-4{
+    color: white;
+    display: flex;
+    /* justify-content: space-around; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 270px;
+    left: 120px;
+}
+.project-2{
+    height: auto;
+    width: 600px;
+    position: relative;
+    border: 15px solid #020618;
+    border-radius: 37px;
+    
+}
+.section-4-right{
+    padding-left: 40px;
+}
+.section-4-right-div-text-1{
+    color: #812AFE;
+    font-size: 28px;
+}
+.section-4-right-div-text-2{
+    font-size: 49px;
+    font-weight: 900;
+}
+.section-4-right-div-text-3{
+    font-size: 20px;
+    position: absolute;
+    z-index: 3;
+    top: 195px;
+    right: 350px;
+    
+}
+.section-4-right-div{
+    opacity: 20%;
+    height: 120px;
+    width: 730px;
+    position: absolute;
+    top: 175px;
+    z-index: 2;
+    border-radius: 10px;
+    background: rgba(200, 197, 203, 1);
+    backdrop-filter: blur(10px);
+    left: 550px;
 }
