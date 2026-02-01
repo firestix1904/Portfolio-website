@@ -12,7 +12,8 @@ body{
     list-style: none;
     /* padding-right: 130px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 130%;
+    font-size: 27px;
+    padding-left: 290px;
 }
 .nav-links li a{
     color: aliceblue;
@@ -35,7 +36,22 @@ nav{
     gap: 800px;
     align-items: center;
     height: 90px;
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  border: 1px solid rgb(48, 47, 47);
+  background-color: #110720;
 }
+.hero-section{
+    position:relative;
+    top: 90px;
+}
+#hero-section-id{
+    padding-left: 30px;
+}
+
 #logo-img{
     width: 90px;     
     height: auto;
@@ -55,18 +71,18 @@ nav{
     height: auto;
 }
 .text-1{
-    font-size: 23px;
+    font-size: 30px;
 }
 .white-spot{
     width: 250px;     
     height: auto;
 }
 .guy{
-    width: 200px;     
+    width: 220px;     
     height: auto;
      position: absolute;
-    left: 153px;
-    top: 218px;
+    left: 140px;
+    top: 130px;
 }
 .hero-section-div-2-left-2{
     position: relative;
@@ -81,19 +97,25 @@ nav{
     padding-left: 135px;
 }
 .hero-section-div-right-1-text-1{
-    font-size: 26px;
+    font-size: 30px;
 }
 .hero-section-div-right-1-text-2{
-    font-size: 75px;
+    font-size: 105px;
     font-weight: 600;
+    line-height: 1;
+}
+.hero-section-div-right-1-text-3{
+    font-size: 25px;
+    padding-top: 25px;
 }
 .hero-section-div-3{
     color: white;
     padding-left: 170px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
 }
 .hero-section-div-3-text-1{
-    font-size: 46px;
+    font-size: 80px;
     font-weight: 900;
     border-right: 6px solid white;
     width: 100%;
@@ -111,11 +133,14 @@ nav{
     from {width: 0;}
 }
 .hero-section-div-3-text-2{
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 400;
 }
 #hero-section-div-3-text-2-id{
     padding-top: 39px;
+    font-size: 29px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .animated-text{
     display: inline-block;
@@ -127,16 +152,22 @@ nav{
     flex-direction: column;
     align-items: center;
     padding-top: 124px;
+    position: relative;
+    top: 90px;
 
 } 
+/* #section-2-id{
+    height: auto;
+    width: 500px;
+} */
 .section-2-text-1{
-    font-size: 41px;
+    font-size: 55px;
 }
 .section-2-text-2{
-    font-size: 22px;
+    font-size: 30px;
 }
 .illustration{
-    width: 519px;
+    width: 650px;
     height: auto;
     padding-top: 50px;
 }
@@ -146,12 +177,15 @@ nav{
     /* justify-content: space-around; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    top: 150px;
-    padding-left: 120px;
+    top: 240px;
+    padding-left: 190px;
+}
+#section-3-id{
+
 }
 .project-1{
     height: auto;
-    width: 600px;
+    width: 800px;
     position: relative;
     z-index: 1;
     left: 160px;
@@ -160,25 +194,25 @@ nav{
 }
 .section-3-left-div-text-1{
     color: #812AFE;
-    font-size: 28px;
+    font-size: 35px;
 }
 .section-3-left-div-text-2{
-    font-size: 49px;
+    font-size: 60px;
     font-weight: 900;
 }
 .section-3-left-div-text-3{
-    font-size: 20px;
+    font-size: 25px;
     position: absolute;
     z-index: 3;
-    top: 195px;
+    top: 220px;
     padding-left: 20px;    
 }
 .section-3-left-div{
     opacity: 20%;
-    height: 170px;
-    width: 730px;
+    height: 200px;
+    width: 910px;
     position: absolute;
-    top: 175px;
+    top: 200px;
     z-index: 2;
     border-radius: 10px;
     background: rgba(200, 197, 203, 1);
@@ -190,47 +224,47 @@ nav{
     /* justify-content: space-around; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    top: 270px;
-    padding-left: 110px;
+    top: 380px;
+    padding-left: 170px;
 }
 .project-2{
     height: auto;
-    width: 600px;
+    width: 800px;
     position: relative;
     border: 15px solid #020618;
     border-radius: 37px;
     
 }
 .section-4-right{
-    padding-left: 40px;
+    padding-left: 30px;
 }
 .section-4-right-div-text-1{
     color: #812AFE;
-    font-size: 28px;
+    font-size: 35px;
 }
 .section-4-right-div-text-2{
-    font-size: 49px;
+    font-size: 60px;
     font-weight: 900;
 }
 .section-4-right-div-text-3{
-    font-size: 20px;
+    font-size: 28px;
     position: absolute;
     z-index: 3;
-    top: 195px;
-    right: 270px;
+    top: 225px;
+    right: 130px;
     
 }
 .section-4-right-div{
     opacity: 20%;
-    height: 120px;
-    width: 730px;
+    height: 145px;
+    width: 870px;
     position: absolute;
-    top: 175px;
+    top: 205px;
     z-index: 2;
     border-radius: 10px;
     background: rgba(200, 197, 203, 1);
     backdrop-filter: blur(10px);
-    left: 630px;
+    left: 910px;
 }
 
 .footer-parent-div{
@@ -240,7 +274,7 @@ nav{
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 400px;
+    top: 480px;
     border-top: 1px solid rgb(48, 47, 47);
 }
 .footer-child-div-1{
@@ -250,15 +284,15 @@ nav{
     padding-top: 25px;
 }
 .footer-child-div-1-text-1{
-    font-size: 60px;
+    font-size: 75px;
     font-weight: 900;
 }
 .footer-child-div-1-text-2{
-    font-size: 20px;
+    font-size: 27px;
     font-weight: 300;
 }
 .footer-child-div-1-text-3{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     padding-top: 35px;
 }
@@ -268,6 +302,7 @@ nav{
 .contact-icon-1{
     background-color: #41394D;
     position: relative;
+    border: 1px solid #8436FF;
     border-radius: 25px;
     height: 40px;
     width: 40px;
@@ -275,15 +310,18 @@ nav{
     align-items: center;
     top: 5px;
 }
+.contact-icon-1:hover{
+    background-color: #686173;
+}
 .social-logo{
     height: auto;
-    width: 23px;
+    width: 22px;
     margin: 8px 10px 10px 9px;
     
 }
 .footer-child-div-2{
     display: flex;
-    gap: 15px;
+    gap: 25px;
     padding: 35px 0px;
 }
 .rights-div{
@@ -298,4 +336,8 @@ nav{
     height: auto;
     width: 42px;
     margin: 5px 10px 10px 1px;
+}
+.rights{
+    font-size: 20px;
+    font-weight: 100;
 }
